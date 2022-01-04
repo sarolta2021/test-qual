@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(201, 188, 188);
+}
+
+.main {
+  margin: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  color: green;
+  align-items: center;
+}
+
+p,
+#name-input,
+#email-input,
+button {
+  text-align: center;
+  color: green;
+}
+
+#name-input,
+#email-input,
+button {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border: none;
+}
+
+#name-input,
+#email-input,
+#check-box {
+  width: 320px;
+  height: 30px;
+}
+
+p {
+  letter-spacing: 2px;
+}
+
+label {
+  font-size: small;
+  padding-left: 10px;
+}
+
+#par {
+  font-weight: 900;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  background-color: green;
+  color: white;
+}
+
+::placeholder {
+  color: green;
+  opacity: 0.5;
+  text-align: left;
+  padding: 10px;
+}
